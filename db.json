@@ -1,0 +1,48 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introduction to Python",
+      "author": "John Smith",
+      "duration": "4 weeks"
+    },
+    {
+      "id": 2,
+      "title": "Web Development Fundamentals",
+      "author": "Jane Doe",
+      "duration": "6 weeks"
+    },
+    {
+      "id": 3,
+      "title": "Machine Learning Basics",
+      "author": "Alex Johnson",
+      "duration": "8 weeks"
+    },
+    {
+      "id": 4,
+      "title": "Python Intermediate",
+      "author": "John Smith",
+      "duration": "4 weeks"
+    },
+    {
+      "id": 5,
+      "title": "Web Development Advanced",
+      "author": "Jane Doe",
+      "duration": "6 weeks"
+    },
+    {
+      "id": 6,
+      "title": "Machine Learning Advanced",
+      "author": "Alex Johnson",
+      "duration": "8 weeks"
+    }
+  ],
+  "query": [
+    {
+      "coursename": "Python Intermediate",
+      "username": "Arpit",
+      "userquery": "Is \"Introduction to Python\" course Mandatory ?",
+      "id": 1
+    }
+  ]
+}
