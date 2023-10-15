@@ -36,16 +36,16 @@ export const Enquires = () => {
                     
                     {isValid ? "" : <p className="text-red-600">Name and Email are mandatory fields.</p>}
                     
-                    <label className="ml-8"><abbr className="text-red-800">*</abbr>Your Name: </label>
-                    <input ref={nameRef} className="text-black mt-8 ml-3 w-60 mr-6 rounded" type="text" placeholder="  Enter Your Name" />
+                    <label htmlFor="name" className="ml-8"><abbr className="text-red-800">*</abbr>Your Name: </label>
+                    <input id="name" ref={nameRef} className="text-black mt-8 ml-3 w-60 mr-6 rounded" type="text" placeholder="  Enter Your Name" />
                     <br/>
 
-                    <label className="ml-8"><abbr className="text-red-800">*</abbr>Your Email: </label>
-                    <input ref={emailRef} className="text-black mt-8 ml-3 w-60 mr-6 rounded" type="text" placeholder="  Enter Your Email" />
+                    <label htmlFor="email" className="ml-8"><abbr className="text-red-800">*</abbr>Your Email: </label>
+                    <input id='email' ref={emailRef} className="text-black mt-8 ml-3 w-60 mr-6 rounded" type="text" placeholder="  Enter Your Email" />
                     <br/>
                     
-                    <label className="ml-8">Your Doubt: </label>
-                    <input ref={userQueryRef} className="text-black text-ellipsis mt-8 ml-3 mr-6 w-60 h-24 rounded" type="text" placeholder="  Enter Your Doubt here " />
+                    <label htmlFor="doubt" className="ml-8">Your Doubt: </label>
+                    <input id="doubt" ref={userQueryRef} className="text-black text-ellipsis mt-8 ml-3 mr-6 w-60 h-24 rounded" type="text" placeholder="  Enter Your Doubt here " />
                     <br/>
                     
                     <button onClick={submitForm} className='bg-orange-700 rounded-md mx-52 mt-2 px-2 text-white'>Submit</button>
